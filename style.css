@@ -1,0 +1,44 @@
+body {
+  scroll-behavior: smooth;
+  background-color: #f8f9fa;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+header {
+  background: linear-gradient(135deg, #198754, #28a745);
+  color: white;
+}
+
+.card {
+  border: none;
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+}
+
+footer {
+  background-color: #198754;
+}
+
+section {
+  padding: 60px 0;
+}
+header {
+  background: linear-gradient(135deg, #198754, #28a745);
+  color: white;
+}
+
+form {
+  border-radius: 15px;
+}
+
+h1, h2 {
+  letter-spacing: 0.5px;
+}
